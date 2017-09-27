@@ -19,3 +19,4 @@ foreign key (id_alumno)
 references alumnos(id_alumno)
 );
 
+select *from alumnos;
