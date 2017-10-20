@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+body {
+	background-color: #FFF;
+	background-image: url(imagenes/fondo.jpg);
+}
+#apDiv1 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 1;
+}
+#apDiv2 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+	left: 30px;
+	top: 264px;
+}
+#apDiv3 {
+	position: absolute;
+	width: 650px;
+	height: 395px;
+	z-index: 3;
+	left: 418px;
+	top: 215px;
+}
+#apDiv4 {
+	position: absolute;
+	width: 652px;
+	height: 73px;
+	z-index: 4;
+	left: 420px;
+	top: 140px;
+}
+#apDiv5 {
+	position: absolute;
+	width: 336px;
+	height: 115px;
+	z-index: 5;
+	left: 33px;
+	top: 142px;
+}
+</style>
+</head>
+
+<body>
+<div id="apDiv1"><img src="imagenes/imagenSuperior.jpg" width="1097" height="119" alt="logoInicio" /></div>
+<div id="apDiv2"><img src="imagenes/logo.jpeg" width="338" height="319" alt="escudo" /></div>
+<div id="apDiv3">
+  <table width="641" border="2">
+    <tr>
+      <td width="313" bgcolor="#FFFF66"><ul>
+        <li>
+          <h2><em><strong>Nombre</strong></em></h2>
+        </li>
+      </ul></td>
+      <td width="310" bgcolor="#FFFF66"><form id="form1" name="form1" method="post" action="">
+        <textarea name="nombreAlumno" id="nombreAlumno"></textarea>
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66"><ul>
+        <li>
+          <h2><strong><em>Matricula</em></strong></h2>
+        </li>
+      </ul></td>
+      <td bgcolor="#FFFF66"><form id="form2" name="form2" method="post" action="">
+        <label for="Matricula"></label>
+        <input type="text" name="Matricula" id="Matricula" />
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66"><ul>
+        <li>
+          <h2><strong><em>Carrera</em></strong><em></em></h2>
+        </li>
+      </ul></td>
+      <td bgcolor="#FFFF66"><form id="form3" name="form3" method="post" action="">
+        <label for="carrera"></label>
+        <select name="carrera" size="1" id="carrera">
+          <option>Ing. Sistemas Computacionales</option>
+          <option>Ing. Agroindustrial</option>
+          <option>Lic. Administracion</option>
+        </select>
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66"><ul>
+        <li>
+          <h2><strong><em>Telefono</em></strong></h2>
+        </li>
+      </ul></td>
+      <td bgcolor="#FFFF66"><form id="form4" name="form4" method="post" action="">
+        <label for="telefono"></label>
+        <input type="text" name="telefono" id="telefono" />
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66"><ul>
+        <li>
+          <h2><strong><em>Contraseña</em></strong></h2>
+        </li>
+      </ul></td>
+      <td bgcolor="#FFFF66"><form id="form5" name="form5" method="post" action="">
+        <label for="contraseña"></label>
+        <input type="password" name="contraseña" id="contraseña" />
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66"><ul>
+        <li>
+          <h2><strong>Ffecha de nacimiento</strong></h2>
+        </li>
+      </ul></td>
+      <td bgcolor="#FFFF66"><form id="form6" name="form6" method="post" action="">
+        <label for="nacimiento"></label>
+        <input type="text" name="nacimiento" id="nacimiento" />
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66"><ul>
+        <li>
+          <h2><strong><em>Fecha de registro</em></strong></h2>
+        </li>
+      </ul></td>
+      <td bgcolor="#FFFF66"><form id="form7" name="form7" method="post" action="">
+        <label for="fregistro"></label>
+        <input type="text" name="fregistro" id="fregistro" />
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66"><ul>
+        <li>
+          <h2><strong><em>Sexo</em></strong></h2>
+        </li>
+      </ul></td>
+      <td bgcolor="#FFFF66"><form id="form8" name="form8" method="post" action="">
+        <label for="sexo"></label>
+        <select name="sexo" id="sexo">
+          <option>Femenino</option>
+          <option>Masculino</option>
+          <option>otros</option>
+        </select>
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66"><ul>
+        <li>
+          <h2><strong><em>Facultad</em></strong></h2>
+        </li>
+      </ul></td>
+      <td bgcolor="#FFFF66"><form id="form9" name="form9" method="post" action="">
+        <label for="facultad"></label>
+        <select name="facultad" id="facultad">
+          <option>CARAO</option>
+          <option>FACULTAD DE INGENIERIA</option>
+          <option>FACULTAD DE DERECHO</option>
+          <option>FACULTAD DE ECONOMIA</option>
+          <option>FACULTAD DE CIENCIAS DE LA COMUNICACION</option>
+        </select>
+      </form></td>
+    </tr>
+    <tr>
+      <td height="27" bgcolor="#FFFF66">&nbsp;</td>
+      <td bgcolor="#FFFF66"><form id="form10" name="form10" method="post" action="">
+        <input type="submit" name="REGISTRAR" id="REGISTRAR" value="REGISTRAR" />
+      </form></td>
+    </tr>
+  </table>
+</div>
+<div id="apDiv4">
+  <table width="641" height="70" border="2">
+    <tr>
+      <td width="617" bgcolor="#FFFF66">FORMULARIO DE REGISTRO</td>
+    </tr>
+  </table>
+</div>
+<div id="apDiv5">
+  <table width="338" height="114" border="2">
+    <tr>
+      <td bgcolor="#FFFF66">MATRICULA</td>
+      <td bgcolor="#FFFF66"><form id="form11" name="form11" method="post" action="">
+        <label for="MATRICULAX"></label>
+        <input type="text" name="MATRICULAX" id="MATRICULAX" />
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66">CONTRASEÑA</td>
+      <td bgcolor="#FFFF66"><form id="form12" name="form12" method="post" action="">
+        <label for="CONTRASEÑAX"></label>
+        <input type="password" name="CONTRASEÑAX" id="CONTRASEÑAX" />
+      </form></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF66">&nbsp;</td>
+      <td bgcolor="#FFFF66"><form id="form13" name="form13" method="post" action="">
+        <input type="submit" name="acceder" id="acceder" value="iniciar sesion" />
+      </form></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
