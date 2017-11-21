@@ -9,7 +9,7 @@ body,td,th {
 	font-weight: bold;
 	font-style: italic;
 	text-align: center;
-	font-size: medium;
+	font-size: large;
 }
 body {
 	background-color: #FFF;
@@ -47,11 +47,12 @@ body {
 }
 #apDiv5 {
 	position: absolute;
-	width: 218px;
-	height: 115px;
+	width: 339px;
+	height: 112px;
 	z-index: 5;
-	left: 33px;
-	top: 142px;
+	left: 32px;
+	top: 150px;
+	text-align: left;
 }
 #apDiv3 table {
 	text-align: left;
@@ -90,6 +91,9 @@ body {
 	left: 735px;
 	top: 195px;
 }
+#apDiv5 table tr td {
+	font-size: medium;
+}
 </style>
 </head>
 
@@ -115,7 +119,17 @@ body {
   </table>
 </div>
 <div id="apDiv6">¡Hoy es un buen dia!</div>
-<div id="apDiv5"></div>
+<div id="apDiv5">
+  <table width="340" height="60" border="1">
+    <tr>
+      <td width="112" height="52" bgcolor="#CCCCCC"><p>La temperatura actual es:</p></td>
+      <td width="212" bgcolor="#FFFFFF"><form id="form3" name="form3" method="post" action="">
+        <input name="temperatura" type="text" id="temperatura" readonly="readonly" />
+        ºC
+      </form></td>
+    </tr>
+  </table>
+</div>
 <div id="apDiv7"><img src="imagenes/palomar.jpg" width="255" height="396" alt="palomar" /></div>
 <div id="apDiv8">
   <table width="100%" height="256" border="2">
